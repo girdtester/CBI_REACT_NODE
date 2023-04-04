@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+15. Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1600px){ 
+   
+
+}
+@media only screen and (min-width : 1600px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+
+}
+@media only screen and (max-width: 1300px) {
+
+
+}
+
+@media only screen and (max-width: 992px) {
+ .sidebar-ul {
+    min-height: calc(100vh - 221px);
+    overflow: auto;
+}
+ #sendinstructions .modal-body {
+    padding: 2rem 1rem;
+}
+.sidebar-left {
+    position: absolute;
+    top: 0px;
+    left: -1200px;
+        height: 100vh;
+}
+.sidebar-left  .s-logo{
+width: 259px;
+}
+.main {
+    margin-left: 0rem;
+}
+   .topnav {
+    margin-left: 0rem;
+    } 
+  .sidebar-left.close1 {
+    min-width: 0rem;
+    width: 0rem;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+   /* width: 100%;*/
+    width: 350px;
+}
+.colse-sidebar {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+.dashboard-box {
+    font-size: 39px;
+  }
+  .menu-toggle{
+  display: inline-block;
+}
+}
+@media only screen and (max-width: 800px) {
+
+}
+@media only screen and (max-width: 768px) {
+ .box001 {
+    padding: 1rem 1rem;
+}
+
+}
+@media (min-width: 992px){
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 640px) {
+.sidebar-left.close1 {
+    width: 100%;
+}
+.login-box {
+    padding: 1rem 0;
+}
+    }
+
+@media only screen and (max-width: 590px) {
+
+}
+@media (min-width: 576px){
+
+}
+
+@media only screen and (max-width: 480px) {
+  
+}
+@media only screen and (max-width: 400px) {
+
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 321px){
+
+}
+
+
+
+
+
+
+
